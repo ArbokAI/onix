@@ -3,7 +3,8 @@
   "description": "CSS for arbok.ai",
   "version": "0.0.1",
   "scripts": {
-    "build": "sass styles/onix.scss dist/onix.css --style compressed"
+    "build": "sass --load-path=node_modules onix.scss ./dist/onix.css --style compressed",
+    "start": "npm run build -- --watch"
   },
   "dependencies": {
     "bulma": "^1.0.2",

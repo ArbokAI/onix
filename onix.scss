@@ -1,0 +1,14 @@
+@use "bulma/sass" with (
+  $family-primary: '"Noto Sans Display", sans-serif',
+  $size-1: 2.625em,
+  $size-2: 2.1875em,
+  $size-3: 1.75em,
+  $size-4: 1.3125em,
+  $size-5: 1.093em,
+  $size-6: 0.875em,
+  $size-7: 0.656em,
+);
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Display:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import "../node_modules/bulma/bulma";
