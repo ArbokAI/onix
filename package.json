@@ -1,0 +1,12 @@
+{
+  "name": "onix",
+  "description": "CSS for arbok.ai",
+  "version": "0.0.1",
+  "scripts": {
+    "build": "sass styles/onix.scss dist/onix.css --style compressed"
+  },
+  "dependencies": {
+    "bulma": "^1.0.2",
+    "sass": "^1.77.8"
+  }
+}
